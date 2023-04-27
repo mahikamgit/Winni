@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+.sub1,.sub2 {
+     display: flex;
+     list-style: none;
+     margin-left: 600px;
+     margin-right: 20px;
+     justify-content: space-between;
+}
+.sub3 {
+ display: flex;
+ list-style: none;
+ margin-left: 40px;
+ margin-right: 100px;
+ justify-content: space-between;
+}
+#head1 {
+ background-color: aqua;
+ position: sticky;
+ top: opx;
+}
+#head2 {
+ display: flex;
+ justify-content: space-evenly;
+}
+.subhead .names {
+    list-style: none;
+   font-weight: bold;
+   font-size: small;
+    display: flex;
+    flex-direction: row;
+    margin-top: -5px;
+    margin-left: 30PX;
+    margin-right: 20PX;
+    justify-content: space-between;
+    padding-left: 10px;    
+}
+#head3 {
+ display: flex;
+ justify-content: space-evenly;
+}
+#head4 {
+ display: flex;
+ justify-content: space-evenly;
+}
+
+#head5 , .h5{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#head6 {
+    display: flex;
+    justify-content: space-evenly;
+    
+   }
+
+#head7{
+    height: 150px;
+    background-color: rgb(131, 218, 218);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#head7 .child{
+    display: flex;      
+}
+.c1{
+    background: whitesmoke;
+    text-transform: capitalize;
+    font-size: x-large;
+    padding: 10px 20px 10px 5px;
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+.c2 {
+    background: rgb(234, 11, 100);
+    text-transform: uppercase;
+    font-size: x-large;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: whitesmoke;
+}
+#bottom{
+    background-color: rgb(66, 66, 220);
+    color: whitesmoke;
+    height: 400px;
+}
+p {
+    margin-top: 80px;
+    margin-left: 20px;
+    opacity: 0.6;
+}
+.btmparent{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.btmc1 , .btmc2 , .btmc3 , .btmc4 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-right: 150px;
+}
+.btmc1 , .btmc2 , .btmc3 , .btmc4 li {
+padding-top: 10px;
+color: white;
+opacity: 0.7;
+}
+
+#bottom h1 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
